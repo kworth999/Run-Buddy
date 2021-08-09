@@ -76,7 +76,7 @@ header a {
       }
 
       .hero {
-        background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+        background-image: url("../images/hero-bg.jpg");
         height: 600px;
         background-size: cover;
         background-position: center;
