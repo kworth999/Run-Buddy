@@ -408,8 +408,6 @@ header a {
         color: var(--primary-color);
       }
 
-      
-
       .contact-form input, .contact-form textarea {
         border: 1px solid var(--secondary-color);
         display: block;
@@ -420,16 +418,12 @@ header a {
         margin-bottom: 15px;
         margin-top: 5px;
         border-radius: 10px;
-        background-color: rgba(255,255,255, 1);
+        background-color: rgba(255,255,255, 0.75);
       }
 
       .contact-form input:focus, .contact-form textarea:focus {
         background-color: rgba(255,255,255, 1);
         outline: none;
-      }
-
-      .contact-form #contact-message {
-        background-color: #BFD3DD;
       }
 
       .contact-form button {
@@ -438,7 +432,7 @@ header a {
         background: var(--primary-color);
         color: var(--secondary-color);
         text-align: center;
-        padding: center;
+        padding: 15px 0;
         font-size: 16px;
         border-radius: 10px;
       }
